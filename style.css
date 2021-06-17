@@ -1,0 +1,46 @@
+h1{
+    color : brown ;
+}
+
+
+h2{
+    color : blue ;
+}
+
+h4{
+    color : red ;
+}
+
+.header{
+   /* background-color: blueviolet;*/
+    display : flex ;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.grid{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/*.item{
+    display: flex;
+    justify-content: center;
+}*/
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+
+
